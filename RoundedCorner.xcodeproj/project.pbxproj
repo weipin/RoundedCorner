@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		165C6BC314F916D400160886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165C6BC214F916D400160886 /* UIKit.framework */; };
+		165C6BC514F916D400160886 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165C6BC414F916D400160886 /* Foundation.framework */; };
+		165C6BC714F916D400160886 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165C6BC614F916D400160886 /* CoreGraphics.framework */; };
+		165C6BCD14F916D400160886 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 165C6BCB14F916D400160886 /* InfoPlist.strings */; };
+		165C6BCF14F916D400160886 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 165C6BCE14F916D400160886 /* main.m */; };
+		165C6BD314F916D400160886 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 165C6BD214F916D400160886 /* AppDelegate.m */; };
+		165C6BEF14F9172900160886 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165C6BEE14F9172900160886 /* FirstViewController.m */; };
+		165C6BF214F9173B00160886 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165C6BF114F9173B00160886 /* SecondViewController.m */; };
+		165C6BF514F91C6000160886 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165C6BF414F91C6000160886 /* ThirdViewController.m */; };
+		165C6C0614F91FE400160886 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 165C6BFC14F91FE400160886 /* 1.png */; };
+		165C6C0714F91FE400160886 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 165C6BFD14F91FE400160886 /* 2.png */; };
+		165C6C0814F91FE400160886 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 165C6BFE14F91FE400160886 /* 3.png */; };
+		165C6C0914F91FE400160886 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 165C6BFF14F91FE400160886 /* 4.png */; };
+		165C6C0A14F91FE400160886 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 165C6C0014F91FE400160886 /* 5.png */; };
+		165C6C0B14F91FE400160886 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 165C6C0114F91FE400160886 /* 6.png */; };
+		165C6C0C14F91FE400160886 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 165C6C0214F91FE400160886 /* 7.png */; };
+		165C6C0D14F91FE400160886 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 165C6C0314F91FE400160886 /* 8.png */; };
+		165C6C0E14F91FE400160886 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 165C6C0414F91FE400160886 /* 9.png */; };
+		165C6C1114F9211800160886 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 165C6C1014F9211800160886 /* 0.png */; };
+		165C6C1314F9234A00160886 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165C6C1214F9234A00160886 /* TableViewCell.xib */; };
+		165C6C1614F9249E00160886 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 165C6C1514F9249E00160886 /* MyTableViewCell.m */; };
+		165C6C1914F9270E00160886 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165C6C1814F9270E00160886 /* FourthViewController.m */; };
+		165C6C2114F9283E00160886 /* RoundedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165C6C2014F9283E00160886 /* RoundedTableViewCell.xib */; };
+		165C6C2414F9285F00160886 /* MyRoundedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 165C6C2314F9285F00160886 /* MyRoundedImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		165C6BBE14F916D400160886 /* RoundedCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundedCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		165C6BC214F916D400160886 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		165C6BC414F916D400160886 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		165C6BC614F916D400160886 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		165C6BCA14F916D400160886 /* RoundedCorner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoundedCorner-Info.plist"; sourceTree = "<group>"; };
+		165C6BCC14F916D400160886 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		165C6BCE14F916D400160886 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		165C6BD014F916D400160886 /* RoundedCorner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoundedCorner-Prefix.pch"; sourceTree = "<group>"; };
+		165C6BD114F916D400160886 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		165C6BD214F916D400160886 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		165C6BED14F9172900160886 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		165C6BEE14F9172900160886 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		165C6BF014F9173B00160886 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		165C6BF114F9173B00160886 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		165C6BF314F91C6000160886 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		165C6BF414F91C6000160886 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		165C6BFC14F91FE400160886 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = Images/1.png; sourceTree = "<group>"; };
+		165C6BFD14F91FE400160886 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = Images/2.png; sourceTree = "<group>"; };
+		165C6BFE14F91FE400160886 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = Images/3.png; sourceTree = "<group>"; };
+		165C6BFF14F91FE400160886 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = Images/4.png; sourceTree = "<group>"; };
+		165C6C0014F91FE400160886 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = Images/5.png; sourceTree = "<group>"; };
+		165C6C0114F91FE400160886 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6.png; path = Images/6.png; sourceTree = "<group>"; };
+		165C6C0214F91FE400160886 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7.png; path = Images/7.png; sourceTree = "<group>"; };
+		165C6C0314F91FE400160886 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8.png; path = Images/8.png; sourceTree = "<group>"; };
+		165C6C0414F91FE400160886 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 9.png; path = Images/9.png; sourceTree = "<group>"; };
+		165C6C1014F9211800160886 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0.png; path = Images/0.png; sourceTree = "<group>"; };
+		165C6C1214F9234A00160886 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		165C6C1414F9249E00160886 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		165C6C1514F9249E00160886 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		165C6C1714F9270E00160886 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		165C6C1814F9270E00160886 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		165C6C2014F9283E00160886 /* RoundedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoundedTableViewCell.xib; sourceTree = "<group>"; };
+		165C6C2214F9285F00160886 /* MyRoundedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRoundedImageView.h; sourceTree = "<group>"; };
+		165C6C2314F9285F00160886 /* MyRoundedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRoundedImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		165C6BBB14F916D400160886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165C6BC314F916D400160886 /* UIKit.framework in Frameworks */,
+				165C6BC514F916D400160886 /* Foundation.framework in Frameworks */,
+				165C6BC714F916D400160886 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		165C6BB314F916D400160886 = {
+			isa = PBXGroup;
+			children = (
+				165C6BC814F916D400160886 /* RoundedCorner */,
+				165C6BC114F916D400160886 /* Frameworks */,
+				165C6BBF14F916D400160886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		165C6BBF14F916D400160886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				165C6BBE14F916D400160886 /* RoundedCorner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		165C6BC114F916D400160886 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				165C6BC214F916D400160886 /* UIKit.framework */,
+				165C6BC414F916D400160886 /* Foundation.framework */,
+				165C6BC614F916D400160886 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		165C6BC814F916D400160886 /* RoundedCorner */ = {
+			isa = PBXGroup;
+			children = (
+				165C6BD114F916D400160886 /* AppDelegate.h */,
+				165C6BD214F916D400160886 /* AppDelegate.m */,
+				165C6C1F14F9281400160886 /* Views */,
+				165C6BED14F9172900160886 /* FirstViewController.h */,
+				165C6BEE14F9172900160886 /* FirstViewController.m */,
+				165C6BF014F9173B00160886 /* SecondViewController.h */,
+				165C6BF114F9173B00160886 /* SecondViewController.m */,
+				165C6BF314F91C6000160886 /* ThirdViewController.h */,
+				165C6BF414F91C6000160886 /* ThirdViewController.m */,
+				165C6C1714F9270E00160886 /* FourthViewController.h */,
+				165C6C1814F9270E00160886 /* FourthViewController.m */,
+				165C6BC914F916D400160886 /* Supporting Files */,
+				165C6BFA14F91D5A00160886 /* Images */,
+			);
+			path = RoundedCorner;
+			sourceTree = "<group>";
+		};
+		165C6BC914F916D400160886 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				165C6BCA14F916D400160886 /* RoundedCorner-Info.plist */,
+				165C6BCB14F916D400160886 /* InfoPlist.strings */,
+				165C6BCE14F916D400160886 /* main.m */,
+				165C6BD014F916D400160886 /* RoundedCorner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		165C6BFA14F91D5A00160886 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				165C6C1014F9211800160886 /* 0.png */,
+				165C6BFC14F91FE400160886 /* 1.png */,
+				165C6BFD14F91FE400160886 /* 2.png */,
+				165C6BFE14F91FE400160886 /* 3.png */,
+				165C6BFF14F91FE400160886 /* 4.png */,
+				165C6C0014F91FE400160886 /* 5.png */,
+				165C6C0114F91FE400160886 /* 6.png */,
+				165C6C0214F91FE400160886 /* 7.png */,
+				165C6C0314F91FE400160886 /* 8.png */,
+				165C6C0414F91FE400160886 /* 9.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		165C6C1F14F9281400160886 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				165C6C1414F9249E00160886 /* MyTableViewCell.h */,
+				165C6C1514F9249E00160886 /* MyTableViewCell.m */,
+				165C6C2214F9285F00160886 /* MyRoundedImageView.h */,
+				165C6C2314F9285F00160886 /* MyRoundedImageView.m */,
+				165C6C1214F9234A00160886 /* TableViewCell.xib */,
+				165C6C2014F9283E00160886 /* RoundedTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		165C6BBD14F916D400160886 /* RoundedCorner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165C6BEA14F916D400160886 /* Build configuration list for PBXNativeTarget "RoundedCorner" */;
+			buildPhases = (
+				165C6BBA14F916D400160886 /* Sources */,
+				165C6BBB14F916D400160886 /* Frameworks */,
+				165C6BBC14F916D400160886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoundedCorner;
+			productName = RoundedCorner;
+			productReference = 165C6BBE14F916D400160886 /* RoundedCorner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		165C6BB514F916D400160886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 165C6BB814F916D400160886 /* Build configuration list for PBXProject "RoundedCorner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 165C6BB314F916D400160886;
+			productRefGroup = 165C6BBF14F916D400160886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				165C6BBD14F916D400160886 /* RoundedCorner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		165C6BBC14F916D400160886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165C6BCD14F916D400160886 /* InfoPlist.strings in Resources */,
+				165C6C0614F91FE400160886 /* 1.png in Resources */,
+				165C6C0714F91FE400160886 /* 2.png in Resources */,
+				165C6C0814F91FE400160886 /* 3.png in Resources */,
+				165C6C0914F91FE400160886 /* 4.png in Resources */,
+				165C6C0A14F91FE400160886 /* 5.png in Resources */,
+				165C6C0B14F91FE400160886 /* 6.png in Resources */,
+				165C6C0C14F91FE400160886 /* 7.png in Resources */,
+				165C6C0D14F91FE400160886 /* 8.png in Resources */,
+				165C6C0E14F91FE400160886 /* 9.png in Resources */,
+				165C6C1114F9211800160886 /* 0.png in Resources */,
+				165C6C1314F9234A00160886 /* TableViewCell.xib in Resources */,
+				165C6C2114F9283E00160886 /* RoundedTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		165C6BBA14F916D400160886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165C6BCF14F916D400160886 /* main.m in Sources */,
+				165C6BD314F916D400160886 /* AppDelegate.m in Sources */,
+				165C6BEF14F9172900160886 /* FirstViewController.m in Sources */,
+				165C6BF214F9173B00160886 /* SecondViewController.m in Sources */,
+				165C6BF514F91C6000160886 /* ThirdViewController.m in Sources */,
+				165C6C1614F9249E00160886 /* MyTableViewCell.m in Sources */,
+				165C6C1914F9270E00160886 /* FourthViewController.m in Sources */,
+				165C6C2414F9285F00160886 /* MyRoundedImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		165C6BCB14F916D400160886 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				165C6BCC14F916D400160886 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		165C6BE814F916D400160886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		165C6BE914F916D400160886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		165C6BEB14F916D400160886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundedCorner/RoundedCorner-Prefix.pch";
+				INFOPLIST_FILE = "RoundedCorner/RoundedCorner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		165C6BEC14F916D400160886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundedCorner/RoundedCorner-Prefix.pch";
+				INFOPLIST_FILE = "RoundedCorner/RoundedCorner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		165C6BB814F916D400160886 /* Build configuration list for PBXProject "RoundedCorner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165C6BE814F916D400160886 /* Debug */,
+				165C6BE914F916D400160886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		165C6BEA14F916D400160886 /* Build configuration list for PBXNativeTarget "RoundedCorner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165C6BEB14F916D400160886 /* Debug */,
+				165C6BEC14F916D400160886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 165C6BB514F916D400160886 /* Project object */;
+}
