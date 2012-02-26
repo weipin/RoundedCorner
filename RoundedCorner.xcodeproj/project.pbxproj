@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		165B434614F9FB7200E4C7C7 /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 165B434514F9FB7200E4C7C7 /* mask.png */; };
 		165C6BC314F916D400160886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165C6BC214F916D400160886 /* UIKit.framework */; };
 		165C6BC514F916D400160886 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165C6BC414F916D400160886 /* Foundation.framework */; };
 		165C6BC714F916D400160886 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165C6BC614F916D400160886 /* CoreGraphics.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		165B434514F9FB7200E4C7C7 /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mask.png; path = Images/mask.png; sourceTree = "<group>"; };
+		165B434814F9FE3800E4C7C7 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		165C6BBE14F916D400160886 /* RoundedCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundedCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		165C6BC214F916D400160886 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		165C6BC414F916D400160886 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,6 +90,7 @@
 		165C6BB314F916D400160886 = {
 			isa = PBXGroup;
 			children = (
+				165B434814F9FE3800E4C7C7 /* README */,
 				165C6BC814F916D400160886 /* RoundedCorner */,
 				165C6BC114F916D400160886 /* Frameworks */,
 				165C6BBF14F916D400160886 /* Products */,
@@ -145,6 +149,7 @@
 		165C6BFA14F91D5A00160886 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				165B434514F9FB7200E4C7C7 /* mask.png */,
 				165C6C1014F9211800160886 /* 0.png */,
 				165C6BFC14F91FE400160886 /* 1.png */,
 				165C6BFD14F91FE400160886 /* 2.png */,
@@ -235,6 +240,7 @@
 				165C6C1114F9211800160886 /* 0.png in Resources */,
 				165C6C1314F9234A00160886 /* TableViewCell.xib in Resources */,
 				165C6C2114F9283E00160886 /* RoundedTableViewCell.xib in Resources */,
+				165B434614F9FB7200E4C7C7 /* mask.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

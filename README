@@ -1,0 +1,22 @@
+Different approaches of applying rounded corners on view.
+
+Tab 1
+---
+None rounded corners.
+
+
+Tab 2
+---
+view.layer.cornerRadius = 8.0;
+view.layer.masksToBounds = YES;
+
+
+Tab 3
+---
+[[UIBezierPath bezierPathWithRoundedRect:rect cornerRadius:8.0] addClip];
+
+
+Tab 4
+---
+CGImageCreateWithMask(image.CGImage, maskRef);
+

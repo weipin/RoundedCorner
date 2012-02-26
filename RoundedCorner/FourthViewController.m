@@ -6,7 +6,17 @@
 //  Copyright 2012 __MyCompanyName__. All rights reserved.
 //
 
+#import "AppDelegate.h"
+
+#import "MyTableViewCell.h"
+
 #import "FourthViewController.h"
+
+@interface FourthViewController () 
+
+- (UIImage *)imageByComposingImage:(UIImage *)image withMaskImage:(UIImage *)maskImage;
+
+@end
 
 
 @implementation FourthViewController
@@ -20,7 +30,10 @@
 }
 
 - (void)initReloadable {
+  self.tableView.rowHeight = kAppTableViewRowHeight;
   
+  [self.tableView registerNib:[UINib nibWithNibName:@"TableViewCell" bundle:nil] 
+       forCellReuseIdentifier:@"MyCell"];
 }
 
 - (void)deallocReloadable {
@@ -50,22 +63,45 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-  return 0;
+  return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-  return 0;
+  return kAppTableViewRows;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-  static NSString *CellIdentifier = @"Cell";
+  static NSString *CellIdentifier = @"MyCell";
   
-  UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-  if (cell == nil) {
-    cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-  }
+  MyTableViewCell *cell = (MyTableViewCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
   
+  NSUInteger index = indexPath.row % 10;
+  NSString *filename = [NSString stringWithFormat:@"%d.png", index];  
+  UIImage *image = [UIImage imageNamed:filename];
+  UIImage *roundedImage = [self imageByComposingImage:image 
+                                        withMaskImage:[UIImage imageNamed:@"mask.png"]];
+  
+  cell.myImageView.image = roundedImage;
   return cell;
+}
+
+#pragma mark - Helper
+
+- (UIImage *)imageByComposingImage:(UIImage *)image withMaskImage:(UIImage *)maskImage {
+	CGImageRef maskImageRef = maskImage.CGImage; 
+	CGImageRef maskRef = CGImageMaskCreate(CGImageGetWidth(maskImageRef),
+                                         CGImageGetHeight(maskImageRef),
+                                         CGImageGetBitsPerComponent(maskImageRef),
+                                         CGImageGetBitsPerPixel(maskImageRef),
+                                         CGImageGetBytesPerRow(maskImageRef),
+                                         CGImageGetDataProvider(maskImageRef), NULL, false);
+	
+  CGImageRef newImageRef = CGImageCreateWithMask(image.CGImage, maskRef);
+  CGImageRelease(maskRef);
+  UIImage *newImage = [UIImage imageWithCGImage:newImageRef];
+  CGImageRelease(newImageRef);
+
+  return newImage;
 }
 
 @end
