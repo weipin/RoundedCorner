@@ -1,4 +1,4 @@
-This project serves as a code sample of my post -- [Applying Rounded Corners](http://articles.cocoahope.com/archives/22)
+This project serves as a code sample of my post -- [Applying Rounded Corners](http://weipin.github.com/blog/2013/03/06/applying-rounded-corners/)
 
 Tab 1 - None rounded corners.
 ---
